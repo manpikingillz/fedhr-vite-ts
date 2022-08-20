@@ -7,6 +7,7 @@ const count = ref(0)
 </script>
 
 <template>
+<dev>
   <h1>{{ msg }}</h1>
 
   <div class="card">
@@ -29,6 +30,9 @@ const count = ref(0)
     in your IDE for a better DX
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <a-button type="primary">Primary Button</a-button>
+  <a-date-picker/>
+</dev>
 </template>
 
 <style scoped>
